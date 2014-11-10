@@ -1,0 +1,60 @@
+/*
+ * My Grid
+ * A semantic, simple and responsive grid.
+ * https://github.com/willrax/mygrid
+ */
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.row {
+  margin: 0 0 20px 0;
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.col {
+  float: left;
+  padding-right: 20px;
+
+  .row &:last-of-type {
+    padding-right: 0;
+  }
+}
+
+// The Grid
+
+.whole {
+  width: 100%;
+}
+
+.half {
+  width: 50%;
+}
+
+.two-thirds {
+  width: 66.66%;
+}
+
+.third {
+  width: 33.33%
+}
+
+// Responsiveness
+
+@media screen and (max-width: 568px) {
+  .row {
+    .col {
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}

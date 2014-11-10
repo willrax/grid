@@ -1,0 +1,22 @@
+{
+  "name": "Grid",
+  "version": "0.0.1",
+  "authors": [
+    "Will Raxworthy <me@willrax.com>"
+  ],
+  "description": "A semantic, simple and responsive grid.",
+  "main": "grid.scss",
+  "keywords": [
+    "grid",
+    "semantic"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/willrax/grid",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
