@@ -12,12 +12,12 @@
 
 .row {
   margin: 0 0 20px 0;
+}
 
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .col {
@@ -36,8 +36,12 @@
   width: 50%;
 }
 
+.one-qtr {
+  width: 25%;
+}
+
 .one-third {
-  width: 33.33%
+  width: 33.33%;
 }
 
 .two-thirds {
